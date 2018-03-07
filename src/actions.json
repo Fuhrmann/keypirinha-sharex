@@ -1,0 +1,243 @@
+    [
+        {
+            "label": "Upload file",
+            "target": "-FileUpload",
+            "desc": "Select a file from your computer and upload"
+        },
+        {
+            "label": "Upload folder",
+            "target": "-FolderUpload",
+            "desc": "Select a folder from your computer and upload"
+        },
+        {
+            "label": "Upload from clipboard",
+            "target": "-ClipboardUpload",
+            "desc": "Upload the contents of your clipboard"
+        },
+        {
+            "label": "Upload from clipboard with content viewer",
+            "target": "-ClipboardUploadWithContentViewer",
+            "desc": "Upload the contents of your clipboard with content viewer"
+        },
+        {
+            "label": "Upload text",
+            "target": "-UploadText",
+            "desc": "Specify a text and upload"
+        },
+        {
+            "label": "Upload URL",
+            "target": "-UploadURL",
+            "desc": "Specify an URL and upload"
+        },
+        {
+            "label": "Drag and drop upload",
+            "target": "-DragDropUpload",
+            "desc": "Upload a file using drag and drog"
+        },
+        {
+            "label": "Shorten URL",
+            "target": "-ShortenURL",
+            "desc": "Specify an URL to shorten"
+        },
+        {
+            "label": "Stop uploads",
+            "target": "-StopUploads",
+            "desc": "Stop all current uploads"
+        },
+        {
+            "label": "Capture screen",
+            "target": "-PrintScreen",
+            "desc": "Take a screenshot of the current screen"
+        },
+        {
+            "label": "Capture active window",
+            "target": "-ActiveWindow",
+            "desc": "Take a screenshot of the active window"
+        },
+        {
+            "label": "Capture active monitor",
+            "target": "-ActiveMonitor",
+            "desc": "Take a screenshot of the active monitor"
+        },
+        {
+            "label": "Capture rectangle region",
+            "target": "-RectangleRegion",
+            "desc": "Take a screenshot of a rectangle user selected region"
+        },
+        {
+            "label": "Capture rectangle light",
+            "target": "-RectangleLight",
+            "desc": "Take a screenshot of a rectangle user selected region (less gui)"
+        },
+        {
+            "label": "Capture rectangle transparent",
+            "target": "-RectangleTransparent",
+            "desc": "Take a screenshot of a rectangle user selected region (without gui)"
+        },
+        {
+            "label": "Capture last region",
+            "target": "-LastRegion",
+            "desc": "Take a screenshot of the last user selected region"
+        },
+        {
+            "label": "Scrolling capture",
+            "target": "-ScrollingCapture",
+            "desc": "Take a screenshot using scrolling region"
+        },
+        {
+            "label": "Capture webpage",
+            "target": "-CaptureWebpage",
+            "desc": "Specify a webpage to screenshot"
+        },
+        {
+            "label": "Text capture",
+            "target": "-TextCapture",
+            "desc": "Specify a region to capture and transform to text (OCR)"
+        },
+        {
+            "label": "Auto capture",
+            "target": "-AutoCapture",
+            "desc": "Take one or more screenshots using a timer"
+        },
+        {
+            "label": "Record screen",
+            "target": "-ScreenRecorder",
+            "desc": "Record the current screen"
+        },
+        {
+            "label": "Record active window",
+            "target": "-ScreenRecorderActiveWindow",
+            "desc": "Record the active window"
+        },
+        {
+            "label": "Start screen recorder",
+            "target": "-StartScreenRecorder",
+            "desc": "Start recording the screen with a predefined region"
+        },
+        {
+            "label": "Record screen (GIF)",
+            "target": "-ScreenRecorderGIF",
+            "desc": "Record the current screen (GIF)"
+        },
+        {
+            "label": "Record screen window (GIF)",
+            "target": "-ScreenRecorderGIFActiveWindow",
+            "desc": "Record the active window (GIF)"
+        },
+        {
+            "label": "Start screen record (GIF)",
+            "target": "-StartScreenRecorderGIF",
+            "desc": "Start recording the screen (GIF) with a predefined region"
+        },
+        {
+            "label": "Abort screen record",
+            "target": "-AbortScreenRecording",
+            "desc": "Stop the screen recort"
+        },
+        {
+            "label": "Color picker",
+            "target": "-ColorPicker",
+            "desc": "Open the color picker tool"
+        },
+        {
+            "label": "Screen color picker",
+            "target": "-ScreenColorPicker",
+            "desc": "Choose an element in the screen to copy its color"
+        },
+        {
+            "label": "Image editor",
+            "target": "-ImageEditor",
+            "desc": "Open the default image editor"
+        },
+        {
+            "label": "Image effects",
+            "target": "-ImageEffects",
+            "desc": "Apply effects to an image"
+        },
+        {
+            "label": "Hash check",
+            "target": "-HashCheck",
+            "desc": "Check the hash of a file"
+        },
+        {
+            "label": "DNS changer",
+            "target": "-DNSChanger",
+            "desc": "Open the DNS changer tool"
+        },
+        {
+            "label": "QRCode",
+            "target": "-QRCode",
+            "desc": "Encode or decode a qrcode"
+        },
+        {
+            "label": "Ruler",
+            "target": "-Ruler",
+            "desc": "Open the ruler tool"
+        },
+        {
+            "label": "Image combiner",
+            "target": "-ImageCombiner",
+            "desc": "Combine two or more images into one"
+        },
+        {
+            "label": "Video thumbnailer",
+            "target": "-VideoThumbnailer",
+            "desc": "Create thumbanils for videos"
+        },
+        {
+            "label": "FTP client",
+            "target": "-FTPClient",
+            "desc": "Open the FTP client"
+        },
+        {
+            "label": "Tweet message",
+            "target": "-TweetMessage",
+            "desc": "Tweet a message using a predefined twitter account"
+        },
+        {
+            "label": "Monitor test",
+            "target": "-MonitorTest",
+            "desc": "Run the moninor test"
+        },
+        {
+            "label": "Disable hotkeys",
+            "target": "-DisableHotkeys",
+            "desc": "Disable all hotkeys"
+        },
+        {
+            "label": "Open main window",
+            "target": "-OpenMainWindow",
+            "desc": "Open the main ShareX window"
+        },
+        {
+            "label": "Open screenshots folder",
+            "target": "-OpenScreenshotsFolder",
+            "desc": "Open the default screenshots folder"
+        },
+        {
+            "label": "Open history",
+            "target": "-OpenHistory",
+            "desc": "Open the history window"
+        },
+        {
+            "label": "Open image history",
+            "target": "-OpenImageHistory",
+            "desc": "Open the image history window"
+        },
+        {
+            "label": "Toogle actions toolbar",
+            "target": "-ToggleActionsToolbar",
+            "desc": "Show/hide the actions toolbar"
+        },
+        {
+            "label": "Exit ShareX",
+            "target": "-ExitShareX",
+            "desc": "Close ShareX"
+        },
+        {
+            "label": "Custom workflow",
+            "target": "-workflow",
+            "desc": "Press TAB to list your custom workflows",
+            "loop_on_suggest": "true"
+        }
+    ]
