@@ -25,6 +25,14 @@ move it to the `InstalledPackage` folder located at:
 
 Open Keypirinha and type 'ShareX'. Once the suggestion appears press ENTER to open ShareX or TAB to show all the actions you can execute.
 
+## Configuration
+
+This plugin uses the default ShareX folders to find the executable file and config files. If your installation/config files is in another path, please change it in the plugin configuration file.
+
+The defaults are:
+Path to exe: C:\Program Files\ShareX
+Path to user config: C:\Users\YOUR_USER\Documents\ShareX
+
 ## Actions
 <table>
     <tbody>
