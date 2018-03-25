@@ -12,6 +12,12 @@ https://github.com/Fuhrmann/keypirinha-sharex/releases
 
 ## Install
 
+#### Managed
+
+[@ueffel](https://github.com/ueffel) wrote [PackageControl](https://github.com/ueffel/Keypirinha-PackageControl), a package manager that eases the install of third-party packages.
+It must be installed manually.
+
+#### Manual
 Once the `ShareX.keypirinha-package` file is installed,
 move it to the `InstalledPackage` folder located at:
 
