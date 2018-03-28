@@ -11,7 +11,7 @@ This package allows you to execute ShareX actions and custom workflows.
 
 ## Download
 
-https://github.com/Fuhrmann/keypirinha-sharex/releases
+https://github.com/Fuhrmann/keypirinha-sharex/releases/latest
 
 
 ## Install
@@ -447,8 +447,10 @@ To execute your customized workflows select "Custom workflow" action, press TAB 
 
 ## Change Log
 
-### v1.0
+### v1.0.1
+* Added plugin's icon
 
+### v1.0
 * Released
 
 
