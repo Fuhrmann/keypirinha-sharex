@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/sharex.ico" width="100" height="100" />
+</p>
+
 # Keypirinha Plugin: ShareX
 
 This is ShareX, a plugin for the
