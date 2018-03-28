@@ -24,8 +24,7 @@ class ShareX(kp.Plugin):
 
     def __init__(self):
         super().__init__()
-        self.suggestions = {}
-        self.sharex_icon = None
+        self.suggestions = {}        
         self.workflows = []
 
     def on_start(self):
@@ -101,12 +100,7 @@ class ShareX(kp.Plugin):
         if not self.file_exists("{}\{}".format(self.sharex_path, self.SHAREX_EXE)):
             self.err("Could not find ShareX executable in the provided path: ", self.sharex_path)
 
-        self.sharex_userpath = settings.get("user_path", section="main", fallback=self.DEFAULT_SHAREXUSER_PATH)
-
-        if not self.sharex_icon:
-            self.sharex_icon = self.load_icon("@{},0".format(self.sharex_path))
-            if self.sharex_icon:
-                self.set_default_icon(self.sharex_icon)
+        self.sharex_userpath = settings.get("user_path", section="main", fallback=self.DEFAULT_SHAREXUSER_PATH)        
 
     # Initialize all the possible suggestions the user can select
     def initialize_suggestions(self):
