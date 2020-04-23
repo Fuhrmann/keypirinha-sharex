@@ -95,12 +95,12 @@ class ShareX(kp.Plugin):
     # Read the configuration file and set some variables
     def read_config(self):
         settings = self.load_settings()
-        self.sharex_path = settings.get("path", section="main", fallback=self.DEFAULT_SHAREX_PATH)
+        self.sharex_path = settings.get_stripped("path", section="main", fallback=self.DEFAULT_SHAREX_PATH)
 
         if not self.file_exists("{}\{}".format(self.sharex_path, self.SHAREX_EXE)):
             self.err("Could not find ShareX executable in the provided path: ", self.sharex_path)
 
-        self.sharex_userpath = settings.get("user_path", section="main", fallback=self.DEFAULT_SHAREXUSER_PATH)        
+        self.sharex_userpath = settings.get_stripped("user_path", section="main", fallback=self.DEFAULT_SHAREXUSER_PATH)        
 
     # Initialize all the possible suggestions the user can select
     def initialize_suggestions(self):

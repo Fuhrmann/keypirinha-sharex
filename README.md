@@ -447,6 +447,9 @@ To execute your customized workflows select "Custom workflow" action, press TAB 
 
 ## Change Log
 
+### v1.0.2
+* Fix bug when reading from settings
+
 ### v1.0.1
 * Added plugin's icon
 
